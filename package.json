@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/gutkedu/clean-ddd-api#readme",
   "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
     "@rocketseat/eslint-config": "^1.2.0",
     "@types/node": "^20.2.5",
     "eslint": "^8.42.0",
