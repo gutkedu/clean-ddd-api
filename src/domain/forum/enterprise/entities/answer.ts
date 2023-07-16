@@ -31,7 +31,7 @@ export class Answer extends Entity<AnswerProps> {
     return this.props.updatedAt
   }
 
-  get exceprt() {
+  get excerpt() {
     return this.content.substring(0, 120).trimEnd().concat('...')
   }
 
