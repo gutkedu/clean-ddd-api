@@ -1,4 +1,4 @@
-/** Functional Error handler */
+// Error
 export class Left<L, R> {
   readonly value: L
 
@@ -15,7 +15,7 @@ export class Left<L, R> {
   }
 }
 
-/** Functional Success handler */
+// Success
 export class Right<L, R> {
   readonly value: R
 
